@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="TFIDF.NET.Tests\**" />
+    <EmbeddedResource Remove="TFIDF.NET.Tests\**" />
+    <None Remove="TFIDF.NET.Tests\**" />
+  </ItemGroup>
+
+</Project>
